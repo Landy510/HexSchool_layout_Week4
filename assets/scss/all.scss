@@ -4,6 +4,9 @@
 @import './base/fontStyle';
 @import './base/base';
 
+// mixin
+@import './utils/mixin';
+
 // layout
 @import './layout/header.scss';
 @import './layout/footer.scss';
