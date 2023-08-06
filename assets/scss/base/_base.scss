@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: var(--font-family-notosans), sans-serif, PingFang, Microsoft JhengHei;
+  line-height: var(--line-height);
+}
+
+.font-family-roboto {
+  font-family: var(--font-family-roboto);
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+@media(min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+}
+
+@media(min-width: 992px) {
+  .container {
+    padding: 0 12px;
+  }
+}
