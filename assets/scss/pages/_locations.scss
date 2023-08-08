@@ -1,0 +1,68 @@
+.locations_section {
+  padding: 40px 0;
+
+  .title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    border-left: 7px solid var(--color-primary-accent);
+    padding-left: 16px;
+  }
+
+  .search_form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    select {
+      flex-grow: 1;
+      margin-left: 8px;
+      background-color: #fff;
+      padding: 6px 12px; 
+      font-size: 18px;
+    }
+  }
+
+  .locations_list {
+
+    .card {
+      color: var(--color-black-accent);
+    }
+
+    .card_title {
+      font-size: 24px;
+      color: var(--color-black-accent);
+      padding: 8px 24px;
+      border: 1px solid #00000020;
+    }
+
+    .card_content {
+      font-size: 20px;
+      padding: 16px 24px;
+      border: 1px solid #00000020;
+
+      & > div {
+        color: var(--color-black-accent);
+        display: flex;
+        
+        .material-symbols-outlined {
+          transform: translateY(5px);
+          margin-right: 11px;
+        }
+      }
+
+      & > div + div {
+        margin-top: 8px;
+      }
+    }
+
+    .navigate_btn {
+      display: block;
+      text-align: center;
+      padding: 16px 0;
+      background-color: var(--color-black);
+      color: var(--color-white);
+      font-size: 20px;
+    }
+  }
+}
