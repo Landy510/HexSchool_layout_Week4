@@ -24,9 +24,14 @@
   }
 
   .locations_list {
+    margin: 0 -12px;
+
 
     .card {
+      padding: 12px;
       color: var(--color-black-accent);
+      display: flex;
+      flex-direction: column;
     }
 
     .card_title {
@@ -40,13 +45,15 @@
       font-size: 20px;
       padding: 16px 24px;
       border: 1px solid #00000020;
+      flex-grow: 1;
 
       & > div {
         color: var(--color-black-accent);
         display: flex;
         
         .material-symbols-outlined {
-          transform: translateY(5px);
+          display: flex;
+          align-items: center;
           margin-right: 11px;
         }
       }
@@ -63,6 +70,34 @@
       background-color: var(--color-black);
       color: var(--color-white);
       font-size: 20px;
+    }
+  }
+}
+
+@include tablet {
+  .locations_section {
+
+    .locations_list {
+      display: flex;
+      flex-wrap: wrap;
+      // margin: 0 -12px;
+
+      .card {
+        width: 50%;
+        // padding: 24px 12px;
+      }
+    }
+  } 
+}
+
+@include desktop {
+  .locations_section {
+
+    .locations_list {
+
+      .card {
+        width: 33.3333%;
+      }
     }
   }
 }
