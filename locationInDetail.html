@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>about</title>
     <script type="module" crossorigin src="/HexSchool_layout_Week4/assets/locations-3c57f252.js"></script>
     <link rel="stylesheet" href="/HexSchool_layout_Week4/assets/locations-1644b4e8.css">
@@ -48,7 +49,67 @@
     </div>
     
   </div>
-</header>    <h1>我是about</h1>
+</header>    <main class="locationInDetail_section">
+      <div class="container">
+        <h2 class="title">門市據點</h2>
+        <form class="search_form">
+          <label for="locations_selection">選擇分店</label>
+          <select 
+            name="locations_selection" 
+            id="locations_selection"
+          >
+            <option value="台北中山旗艦店">台北中山旗艦店</option>
+            <option value="台北大安旗艦店">台北大安旗艦店</option>
+          </select>
+        </form>
+
+        <div class="store_container">
+          <div class="store_info">
+            <img 
+              class="card_img"
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true" 
+              alt=""
+            >
+
+            <div class="content_section">
+              <h3 class="store_info_title">台北中山旗艦店</h3>
+              <div class="store_info_content">
+                <div>
+                  <span class="material-symbols-outlined">
+                    call
+                  </span>
+                  <p>
+                    電話 : <a href="tel:(02)000-1234">(02)000-1234</a>
+                  </p>
+                </div>
+                <div>
+                  <span class="material-symbols-outlined">
+                    schedule
+                  </span>
+                  <p>
+                    營業時間 : 10:00-21:00
+                  </p>
+                </div>
+                <div>
+                  <span class="material-symbols-outlined">
+                    location_on
+                  </span>
+                  <p>
+                    地址 : 台北市中山區南京東路25巷2-1號
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="store_map">
+            <img src="/HexSchool_layout_Week4/assets/store_map-dc2516bb.png" alt="">
+          </div>
+        </div>
+        
+        
+      </div>
+    </main>
     <footer class="footer">
   <div class="container">
     <div class="company_info_section">
