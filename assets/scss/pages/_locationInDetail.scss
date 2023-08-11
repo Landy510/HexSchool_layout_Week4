@@ -58,11 +58,16 @@
       & > div {
         color: var(--color-black-accent);
         display: flex;
+        position: relative;
+      padding-left: 35px;
         
         .material-symbols-outlined {
           display: flex;
           align-items: center;
           margin-right: 11px;
+          position: absolute;
+          top: 3px;
+          left: 0;
         }
       }
 
